@@ -6,6 +6,7 @@ class Home extends React.Component {
     return (
       <section>
         <h1>hello</h1>
+        <img src= {} />
       </section>
     )
   }
