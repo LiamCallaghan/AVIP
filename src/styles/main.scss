@@ -2,6 +2,12 @@ body {
   background-color: black;
 }
 
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .logo {
   max-width: 30%;
   height: auto;
