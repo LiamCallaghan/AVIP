@@ -33,11 +33,19 @@ h1 {
 }
 
 .infoBar {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
   background-color: grey;
 }
 
 .socialIcon {
+  margin: 0 5%;
   max-width: 10%;
+  height: auto;
 }
 
 @media only screen and (max-width: 600px) {
@@ -53,5 +61,13 @@ h1 {
   h1 {
   font-size: 20px;
   margin-top: -20%;
+  }
+
+  .infoBar {
+    height: 25%;
+  }
+
+  .socialIcon {
+    height: fit-content;
   }
 }

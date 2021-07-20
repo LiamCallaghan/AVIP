@@ -1,15 +1,13 @@
 import React from 'react'
 import InfoBar from './InfoBar'
-import avip from '/Users/liam/Development/avip/src/images/AVIP.png'
-import oneBrackets from '/Users/liam/Development/avip/src/images/-1.png'
 
 class Home extends React.Component {
 
   render() {
     return (
       <section>
-        <img className='logo' src={oneBrackets} alt='logo' />
-        <div className='banner'><img className='mainLogo' src={avip} alt='banner' /></div>
+        <img className='logo' src='https://i.imgur.com/8QnElNS.png' alt='logo' />
+        <div className='banner'><img className='mainLogo' src='https://i.imgur.com/Yiq5niK.png' alt='banner' /></div>
         <h1>Coming Soon</h1>
         <InfoBar />
       </section>

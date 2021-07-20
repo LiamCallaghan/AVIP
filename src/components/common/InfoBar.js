@@ -1,10 +1,10 @@
 import React from 'react'
-import instagramIcon from '/Users/liam/Development/avip/src/images/instagram-icon.png'
 
 const InfoBar = () => {
   return (
     <section className='infoBar'>
-      <img className='socialIcon' src={instagramIcon} />
+      <img className='socialIcon' src='https://i.imgur.com/hdnmUWo.png' />
+      <img className='socialIcon' src='https://i.imgur.com/HssvT9b.png' />
     </section>
   )
 }
