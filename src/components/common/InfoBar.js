@@ -4,6 +4,7 @@ const InfoBar = () => {
   return (
     <section className='infoBar'>
       <div className='emailInput'>
+        <h3>Stay Updated</h3>
         <input placeholder='@'></input>
       </div>
       <div className='socialBox'>
