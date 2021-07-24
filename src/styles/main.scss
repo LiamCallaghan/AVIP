@@ -1,5 +1,6 @@
 body {
   background-color: black;
+  overflow: hidden;
 }
 
 section {
@@ -23,7 +24,7 @@ h1 {
 }
 
 .banner {
-  margin: -23% 3% 2%;
+  margin: -23% 3% -2%;
 }
 
 .mainLogo {
@@ -39,7 +40,7 @@ h1 {
   left: 0;
   bottom: 0;
   width: 100%;
-  height: 29%;
+  height: 25%;
   background-color: #696969;
 }
 
@@ -75,32 +76,41 @@ h3 {
 button {
   height: 16%;
   margin: 2% 2%;
-  // max-width: 10%;
   background-color: #696969;
   border-width: 0;
-  // border-style: none;
 }
 
-@media only screen and (max-width: 600px) {
-  section {
-      padding-top: 40%;
-      margin-top: -20%;
+@media only screen and (max-width: 1000px) {
+  .banner {
+      margin-top: -22%;
   }
 
   .logo {
-    max-width: 20%;
+    margin-top: 2%;
+    max-width: 10%;
   }
 
   h1 {
-  font-size: 20px;
-  margin-top: -20%;
+  font-size: 40px;
+  margin-top: -22%;
   }
-
-  // .infoBar {
-  //   height: 25%;
-  // }
-
-  // .socialIcon {
-  //   height: fit-content;
-  // }
 }
+
+// @media only screen and (max-width: 600px) {
+//   .banner {
+//     margin: -22% -20% -10%;    
+//   }
+
+//   .logo {
+//     margin-top: 2%;
+//     max-width: 16%;
+//   }
+
+//   h1 {
+//   font-size: 20px;
+//   margin-top: -20%;
+//   }
+
+//   .infoBar {
+//   }
+// }
