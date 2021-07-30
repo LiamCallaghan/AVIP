@@ -8,7 +8,7 @@ const InfoBar = () => {
         <input placeholder='@'></input>
       </div>
       <div className='socialBox'>
-        <button><img className='socialIcon' src='https://i.imgur.com/hdnmUWo.png' /></button>
+        <button><a href='https://www.instagram.com/avipofficial/' ><img className='socialIcon' src='https://i.imgur.com/hdnmUWo.png' /></a></button>
         <button><img className='socialIcon' src='https://i.imgur.com/HssvT9b.png' /></button>
       </div>
     </section>
